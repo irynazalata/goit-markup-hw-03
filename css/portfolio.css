@@ -1,0 +1,37 @@
+/* Filter */
+
+.filter-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  color: var(--title-text-color);
+
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  border-width: 0;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--primary-wh-color);
+  background-color: var(--accent-color);
+}
+
+/* Examples */
+
+.examples-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+
+.examples-type {
+  font-size: 16px;
+  line-height: 2;
+
+  color: var(--primary-text-color);
+}
