@@ -15,12 +15,16 @@ p {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  text-align: center;
   background-color: var(--secondary-bg-color);
 }
 
+.hero-content {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 696px;
+}
+
 .hero-title {
-  width: 696px;
   margin: 0 auto 30px;
   font-weight: 900;
   font-size: 44px;
@@ -50,7 +54,7 @@ p {
 
 /* Benefits */
 
-.benefits {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -97,7 +101,7 @@ p {
 /* Activity */
 
 .activity {
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 
 .activity-title {
@@ -119,8 +123,6 @@ p {
 /* Team */
 
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: #f5f4fa;
 }
 
@@ -141,9 +143,7 @@ p {
 }
 
 .team-member {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
   padding-bottom: 30px;
   background: var(--primary-wh-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
