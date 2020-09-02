@@ -1,6 +1,32 @@
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+button {
+  padding: 0 0;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Filter */
 
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+}
+
 .filter-button {
+  display: inline-block;
+  padding: 6px 22px;
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -13,6 +39,10 @@
   border-width: 0;
 }
 
+.filter-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .filter-button:hover,
 .filter-button:focus {
   color: var(--primary-wh-color);
@@ -21,7 +51,27 @@
 
 /* Examples */
 
+.examples {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.examples-item {
+  width: 370px;
+  margin: 15px;
+  padding-bottom: 20px;
+  border: 1px solid #eeeeee;
+}
+
+.examples-item img {
+  margin-bottom: 20px;
+}
+
 .examples-title {
+  margin-right: 20px;
+  margin-bottom: 4px;
+  margin-left: 20px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -30,6 +80,8 @@
 }
 
 .examples-type {
+  margin-right: 20px;
+  margin-left: 20px;
   font-size: 16px;
   line-height: 2;
 
