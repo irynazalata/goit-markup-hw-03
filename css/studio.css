@@ -22,6 +22,8 @@ p {
   text-align: center;
   margin: 0 auto;
   max-width: 696px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .hero-title {
@@ -103,10 +105,13 @@ p {
 
 .activity .list {
   display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
 }
 
-.activity .list-item:not(:last-child) {
-  margin-right: 30px;
+.activity .list-item {
+  width: 370px;
+  margin: 15px;
 }
 
 /* Team */
