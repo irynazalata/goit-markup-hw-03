@@ -60,11 +60,14 @@ header {
   margin: -15px;
 }
 
+.examples-link {
+  border: 1px solid #eeeeee;
+}
+
 .examples-item {
   width: 370px;
   margin: 15px;
   padding-bottom: 20px;
-  border: 1px solid #eeeeee;
 }
 
 .examples-item img {
