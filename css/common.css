@@ -12,6 +12,13 @@
   --secondary-bg-color: #2f303a;
 }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
@@ -21,8 +28,6 @@ body {
 }
 
 .list {
-  padding: 0;
-  margin: 0;
   list-style: none;
 }
 
@@ -40,24 +45,15 @@ img {
   display: block;
 }
 
-header {
-  background-color: var(--primary-wh-color);
+address {
+  font-style: normal;
 }
 
+/* COMPONENTS */
 .container {
   width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 0 15px;
   margin: 0 auto;
-}
-
-header a {
-  padding-top: 35px;
-  padding-bottom: 29px;
-}
-
-header .container {
-  display: flex;
 }
 
 .visually-hidden {
@@ -69,6 +65,19 @@ header .container {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
+}
+
+/* HEADER  */
+
+header {
+  padding-top: 35px;
+  padding-bottom: 29px;
+  background-color: var(--primary-wh-color);
+}
+
+header .container {
+  display: flex;
+  align-items: center;
 }
 
 /* Logo */
@@ -87,6 +96,7 @@ header .container {
 .page-header .logo {
   padding-top: 27px;
   padding-bottom: 22px;
+  margin-right: 93px;
   color: #000000;
 }
 
@@ -104,7 +114,6 @@ header .container {
 
 .site-nav > .list {
   display: flex;
-  margin-left: 93px;
 }
 
 .site-nav .link {
@@ -132,7 +141,6 @@ header .container {
 
 .header-contacts {
   display: flex;
-  align-items: center;
   margin-left: auto;
 }
 
@@ -142,7 +150,6 @@ header .container {
 .header-contacts a {
   color: var(--primary-text-color);
   font-weight: 500;
-  font-style: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -167,14 +174,12 @@ header .container {
 
 .footer-contacts {
   color: var(--primary-wh-color);
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
 
 .footer-contacts a {
   color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
