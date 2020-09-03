@@ -15,6 +15,9 @@ button {
   padding-bottom: 94px;
 }
 
+header {
+  border-bottom: 1px solid #ececec;
+}
 /* Filter */
 
 .filter {
